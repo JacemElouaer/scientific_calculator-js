@@ -1,0 +1,206 @@
+body {
+    width:950px;
+    margin: 4% auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  .calculator {
+    padding: 20px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 1px;
+    background: #f2fcd9; 
+    border-radius: 20px;
+  }
+  #clear {
+    background: #fcce56;
+    border-radius: 13px; 
+    border: 1px solid #fcce56;
+  }
+  
+  
+  .input {
+    border: 1px solid #ddd; 
+    color : #fff; 
+    width: 60%; 
+    margin-left: 150px;
+    border-radius: 14px; 
+    background: #444;
+    height: 60px;
+    padding-left: 9px;
+    padding-top: 5px;
+    text-align: left;
+    margin-right: 6px;
+    font-size: 2rem;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+  }
+  
+  .input:hover {
+    border: 1px solid #bbb;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .buttons {
+    color : #444;
+  }
+  
+  .Panels{
+    display: inline-block;
+  }
+  .Panels div{
+    /*hope i need it */
+  }
+  .Panels :first-child :nth-child(2){
+    background: #83caff;
+    border: 1px solid #83caff; 
+  }
+  .Panels :first-child :nth-child(n){
+    background: #83caff;
+    border: 1px solid #83caff;  
+  } 
+  .Panels :first-child  :last-child{
+    background-color: #fcce56; 
+    border : 1px solid #fcce56;
+  }
+  
+  
+  .numbers div {
+    display: inline-block;
+    border: 1px solid #989898;
+    border-radius: 10px;
+    width: 90px;
+    text-align: center;
+    padding: 10px; 
+    color : #444;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background-color: #989898;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .numbers div:hover {
+    background-color: #f1f1f1;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #bbb;
+  }
+  
+  .numbers div:active {
+    font-weight: bold;
+  }
+  .operators {
+    display: inline-block;
+  }
+  
+  .operators div {
+    width: 90px;
+    text-align: center;
+    padding: 10px;  
+    font-size: 28px; 
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    color : #444;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .operators div:hover {
+    background-color: #ddd;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+  }
+  
+  .operators div:active {
+    font-weight: bold;
+  }
+  
+  
+  #p_m  :first-child{
+    background: #fcce56;
+    border: 1px solid #fcce56;  
+    color : #444; 
+
+  } 
+
+
+  
+  
+  
+  div.equal:active {
+    font-weight: bold;
+  }
+  #jaune {
+    
+    border: 1px solid #fcce56;
+    background: #fcce56;
+  }  
+   
+
+
+  div.equal {   
+    border: 1px solid #fcce56;
+    background: #fcce56;
+    border-radius: 15px;
+    vertical-align: top;
+    cursor: pointer;
+    color: #444;
+    transition: all .2s ease-in-out;
+  }
+
+ div.equal:hover {
+    background-color: #307CF9;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #1857BB;
+  }  
+
+  
+  
+  .special_operator{
+    display: inline-block;
+  } 
+  .special_operator div {
+    width: 90px;
+    text-align: center;
+    padding: 10px;  
+    font-size: 28px; 
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .special_operator div:hover {
+    background-color: #ddd;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+  }
+
+
+  .special_operator:nth-child(n)>div:nth-child(n) {
+    background : #73feff;
+    border: 1px solid #73feff;
+  }
+  .special_operator:nth-child(1)>div:nth-child(2) {
+    background : #83caff;
+    border: 1px solid #83caff;
+  }
+  .special_operator:first-child>div:last-child{
+    background-color: #fcce56;  
+    border:1px solid #fcce56;
+  } 
+  .special_operator:last-child>div:first-child{
+    background-color: #43EFA3; 
+    border: 1px solid #43EFA3; 
+  }
