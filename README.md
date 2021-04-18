@@ -1,2 +1,7 @@
 # scientific_calculator-js
-i will update some code later
+
+
+
+javascript calculator 
+make fun modifiying it ..  :)
+
